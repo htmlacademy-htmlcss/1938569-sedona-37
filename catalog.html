@@ -5,47 +5,40 @@
       <title>Каталог</title>
    </head>
    <body>
-      <header class="page-header">
-         <a class="header-logo" href="index.html">
-         <img class=page-header-logo alt="Логотип City of Sedona" src="">
-         </a>
-         <nav class="navigation">
-            <ul class="navigation-list">
-               <li class="navigation-item">
-                  <a href="index.html">
-                  Главная
-                  </a>
-               </li>
-               <li class="navigation-item">
-                  <a href="about.html">
-                  О Седоне
-                  </a>
-               </li>
-               <li class="navigation-item">
-                  <a href="catalog.html">
-                  Гостиницы
-                  </a>
-               </li>
-            </ul>
-            <ul class="navigation-list navigation-user">
-               <li class="navigation-item">
-                  <a href="#">
-                  <span class="visually-hidden">
+    <header class="page-header">
+        <img src="images/logo.svg" class="miniature-logo" alt="Логотип Sedona">
+        <nav class="navigation">
+          <ul class="navigation-list">
+            <li class="navigation-item">
+              <a class="navigation-link" href="index.html">Главная</a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="index.html">О Седоне</a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="catalog.html">Гостиницы</a>
+            </li>
+          </ul>
+          <ul class="navigation-list">
+            <li class="navigation-item">
+              <a class="navigation-link" href="#">
+                <span class="visually-hidden">
                   Поиск
-                  </span></a>
-                  <a href="#">
-                  <span class="visually-hidden">
-                  Избранное 12
-                  </span>
-                  </a>
-                  <a href="#">
-                  <span class="visually-hidden">
-                  Хочу сюда!
-                  </span>
-                  </a>
-               </li>
-            </ul>
-         </nav>
+                </span>
+              </a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="#">
+                <span class="visually-hidden">
+                  Избранное
+                </span>
+              </a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="#">ХОЧУ СЮДА!</a>
+            </li>
+          </ul>
+        </nav>
       </header>
       <main class="main-inner">
          <nav class="catalog-adress">
@@ -104,7 +97,7 @@
          </section>
          <section class="catalog-results">
             <article>
-               <img src="" alt="Изображение гостиницы" class="hotel-image">
+               <img src="images/hotel-1.jpg" alt="Изображение гостиницы" class="hotel-image">
                <h3 class="hotel-title">Amara Resort & Spa</h3>
                <p class="hotel-type">Гостиница</p>
                <p class="hotel-min-price">От 4000 ₽</p>
@@ -113,7 +106,7 @@
                <p class="hotel-raiting">Рейтинг: 8,5</p>
             </article>
             <article>
-               <img src="" alt="Изображение гостиницы" class="hotel-image">
+               <img src="images/hotel-2.jpg" alt="Изображение гостиницы" class="hotel-image">
                <h3 class="hotel-title">Desert Quail Inn</h3>
                <p class="hotel-type">Гостиница</p>
                <p class="hotel-min-price">От 3000 ₽</p>
@@ -122,7 +115,7 @@
                <p class="hotel-raiting">Рейтинг: 8,9</p>
             </article>
             <article>
-               <img src="" alt="Изображение гостиницы" class="hotel-image">
+               <img src="images/hotel-3.jpg" alt="Изображение гостиницы" class="hotel-image">
                <h3 class="hotel-title">Villas at Poco Diablo</h3>
                <p class="hotel-type">Гостиница</p>
                <p class="hotel-min-price">От 2000 ₽</p>
@@ -131,7 +124,7 @@
                <p class="hotel-raiting">Рейтинг: 9,2</p>
             </article>
             <article>
-               <img src="" alt="Изображение гостиницы" class="hotel-image">
+               <img src="images/hotel-4.jpg" alt="Изображение гостиницы" class="hotel-image">
                <h3 class="hotel-title">GreenTree Inn</h3>
                <p class="hotel-type">Гостиница</p>
                <p class="hotel-min-price">От 3000 ₽</p>
@@ -167,24 +160,34 @@
          </section>
       </main>
       <footer class="page-footer">
-         <ul class="footer-contacts">
-         <li>
-            <a href="https://www.facebook.com/htmlacademy"><img class="footer-contacts-link" alt="Наш твиттер" src=""></a>
-         </li>
-         <li>
-            <a href="https://facebook.com/htmlacademy_ru"><img class="footer-contacts-links" alt="Наш фейсбук" src=""></a>
-         </li>
-         <li>
-            <a href="https://www.youtube.com/c/HTMLAcademyRUS"><img class="footer-contacts-links" alt="Наш ютуб" src=""></a>
-         </li>
-         <div class="footer-number">
-            <a href="tel:+78128121212">
-               <h2>+7 (812) 812-12-12</h2>
-            </a>
-         </div>
-         <div class="footer-partnership">
-            <a  href="https://www.htmlacademy.ru" class="partnership-logo"><img src="" alt="Логотип HTML Academy"></a>
-         </div>
-      </footer>
+         <section class="footer-contacts">
+           <ul class="footer-contacts-list">
+             <li class="footer-contacts-item">
+               <a><img src="images/vk.png"></a>
+               <span class="visually-hidden">
+                 ВК
+               </span>
+             </li>
+             <li class="footer-contacts-item">
+               <a><img src="images/tg.png"></a>
+               <span class="visually-hidden">
+                 Телеграмм
+               </span>
+             </li>
+             <li class="footer-contacts-item">
+               <a><img src="images/youtube.svg"></a>
+               <span class="visually-hidden">
+                 ЮТУБ
+               </span>
+             </li>
+           </ul>
+         </section>
+         <section class="footer-number">
+           <h2>+7 (812) 812-12-12</h2>
+         </section>
+         <section class="footer-logo">
+           <img src="images/logo_htmlacademy.png" alt="Логотип .htmlacademy">
+         </section>
+       </footer>
    </body>
 </html>
